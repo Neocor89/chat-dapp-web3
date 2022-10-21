@@ -10,8 +10,8 @@ const Login = () => {
       <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
         <Image
           src="https://res.cloudinary.com/dwoifuutn/image/upload/v1666286613/bendev-messenger-logo_z4pgnu.png"
-          height={180}
-          width={150}
+          height={170}
+          width={140}
           className="object-cover rounded-full"
         />
 
@@ -19,7 +19,7 @@ const Login = () => {
           onClick={authenticate}
           className="bg-[#E7915B] rounded-lg p-4 font-bold animate-pulse"
         >
-          Login to the Metaverse
+          Login to Metaverse Chat
         </button>
       </div>
 

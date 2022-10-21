@@ -2,10 +2,10 @@ import Head from "next/head";
 import Login from "../components/Login";
 import { useMoralis } from "react-moralis";
 import Header from "../components/Header";
-// import Image from 'next/image'
+import Messages from "../components/Messages";
 
 const Home = () => {
-  const { isAuthenticated, logout } = useMoralis();
+  const { isAuthenticated } = useMoralis();
 
   if (!isAuthenticated) return <Login />;
 
@@ -16,13 +16,10 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="maw-w-screen-2xl mx-auto">
+      <div className="max-w-screen-2xl mx-auto">
         <Header />
-        {/* <Messages /> */}
-        {/* <Footer /> */}
+        <Messages />
       </div>
-
-      <button onClick={logout}>Logout</button>
     </div>
   );
 };
