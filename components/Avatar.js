@@ -13,6 +13,7 @@ const Avatar = ({ username, logoutOnePress }) => {
       }.svg`}
       onClick={() => logoutOnePress && logout()}
       layout="fill"
+      title="Click for Logout"
     />
   );
 };

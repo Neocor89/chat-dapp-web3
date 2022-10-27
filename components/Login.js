@@ -17,7 +17,7 @@ const Login = () => {
 
         <button
           onClick={authenticate}
-          className="bg-[#E7915B] rounded-lg p-4 font-bold animate-pulse"
+          className="bg-[#E7915B] rounded-lg p-2 sm:p-4 font-bold animate-pulse"
         >
           Login to Metaverse Chat
         </button>

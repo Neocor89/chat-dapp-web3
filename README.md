@@ -18,7 +18,15 @@
 
 #
 
-## How to use
+## **How to use the app**
+
+To be able to enjoy the content of the application you must :
+
+1. Have a Metamask wallet 🦊
+
+2. Enable testnet network detection, in your Metamask wallet settings 💻📶
+
+> You can then log in to the app with your Metamask wallet, choose a username and send and receive your messages on the blockchain, with other connected users.
 
 Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 

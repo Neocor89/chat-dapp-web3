@@ -18,14 +18,14 @@ const Header = () => {
         </div>
 
         <div className="col-span-4 text-left lg:text-center">
-          <div className="relative h-24 w-24 md:w-[145px] md:h-[145px] lg:mx-auto mb-3 border-pink-300 border-8 rounded-full">
+          <div className="relative h-20 w-20 sm:h-28 sm:w-28 lg:w-[150px] lg:h-[150px] lg:mx-auto mb-3 border-pink-300 border-4 md:border-[6px] rounded-full">
             <Avatar logoutOnePress />
           </div>
 
-          <h1 className="text-xl md:text-2xl mb-2">
+          <h1 className="text-[1.1rem] sm:text-xl md:text-2xl mb-1 sm:mb-2">
             Welcome to the Metaverse Chat dapp
           </h1>
-          <h2 className="text-3xl md:text-4xl font-bold truncate">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold truncate">
             {user.getUsername()}
           </h2>
 

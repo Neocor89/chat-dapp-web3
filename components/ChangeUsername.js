@@ -19,7 +19,7 @@ const ChangeUsername = () => {
       <button
         disabled={isUserUpdating}
         onClick={setUsername}
-        className="hover:text-pink-300"
+        className="hover:text-pink-300/95 text-[12px] sm:text-[100%]"
       >
         Change your UserName
       </button>

@@ -37,9 +37,9 @@ const SendMessage = ({ endofMessagesRef }) => {
   };
 
   return (
-    <form className="flex fixed bottom-10 bg-black opacity-80 px-6 py-4 w-11/12 max-w-2xl shadow-xl rounded-full border-4 border-blue-400">
+    <form className="flex fixed bottom-10 bg-black opacity-80 px-2 sm:px-6 py-2 sm:py-3 w-11/12 max-w-2xl shadow-xl rounded-full border-4 border-blue-400">
       <input
-        className="flex-grow outline-none bg-transparent text-white placeholder-gray-500 pr-5"
+        className="flex-grow outline-none bg-transparent text-white placeholder-gray-500 pr-2 sm:pr-5 placeholder:text-[0.8rem] placeholder:sm:text-lg"
         type="text"
         value={message}
         onChange={(e) => setMessage(e.target.value)}
@@ -48,7 +48,7 @@ const SendMessage = ({ endofMessagesRef }) => {
       <button
         type="submit"
         onClick={sendMessage}
-        className="font-bold text-pink-500"
+        className="font-bold text-pink-500 text-[13.333px] sm:text-lg mr-2"
       >
         Send
       </button>

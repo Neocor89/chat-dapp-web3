@@ -33,7 +33,7 @@ const Messages = () => {
       <div className="my-5">
         <ByMoralis
           variant="dark"
-          style={{ marginLeft: "auto", marginRight: "auto" }}
+          style={{ marginLeft: "auto", marginRight: "auto", width: "180px" }}
         />
       </div>
 
